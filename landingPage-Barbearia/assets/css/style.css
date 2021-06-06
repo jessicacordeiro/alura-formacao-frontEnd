@@ -1,0 +1,49 @@
+h1 {
+    font-family: 'Limelight', cursive;
+    padding-left: 20px;
+}
+
+.principal {
+    background: #635A58;
+    padding: 30px;
+    color: #FFFFFF;
+}
+
+.text-center {
+    font-family: 'Limelight', cursive;
+    text-align: center;
+    font-weight: 700;
+}
+
+p {
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+}
+
+p em {
+    font-size: 20px;
+}
+
+em strong {
+    color: #FF0000;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 25px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
+}
+
+ul li {
+    font-style: italic;
+    font-size: 20px;
+}
