@@ -7,17 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia - Alura</title>
     <!--Estilizadores da página-->
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
 </head>
 
     <body>
         <header>
-            <h1>Barbearia Alura</h1>
+            <div class="container">
+                <h1><img src="assets/img/logo-branco.png" alt="Logomarca da Barbearia Alura"></h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <img src="assets/img/banner.png" alt="Foto dos donos da Barbearia" width="100%";>
+
+        <img src="assets/img/banner-1.png" alt="Foto dos donos da Barbearia" width="100%";>
 
         <div class="principal">
             <h2 class="text-center">Sobre a Barbearia Alura</h2>
@@ -31,8 +43,10 @@
             O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
         </div>
 
+        <img src="assets/img/banner-2.png" width="100%">
+
         <div class="beneficios">
-            <h3 class="text-center">Benefícios</h3>
+            <h3 class="titulo-beneficios">Benefícios</h3>
         
             <ul>
                 <li class="itens">Atendimento aos Clientes</li>
@@ -40,9 +54,11 @@
                 <li class="itens">Localização</li>
                 <li class="itens">Profissionais Qualificados</li>
             </ul>
-        
-            <img src="assets/img/beneficios.png" width="50%">
         </div>
+        <footer>
+            <img src="assets/img/logo-branco.png" alt="imagem da logomarca da Barbearia Alura.">
+            <p class="copyright">&copy; Copyright Barbearia Alura - 2021 </p>
+        </footer>
     </body>
 
 </html>
