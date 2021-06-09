@@ -1,0 +1,119 @@
+header {
+    background: #635A58;
+    padding: 20px 0;
+}
+
+.container {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color:#FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.principal {
+    position: absolute;
+    top: 300px;
+    width: 600px;
+    left: 640px;
+    padding: 40px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.text-center {
+    font-family: 'Open Sans', sans-serif;
+    color: #a0928e;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Spartan', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p em {
+    font-size: 20px;
+}
+
+em strong {
+    color: #000000;
+    text-shadow: 3px 3px 5px #635A58;
+}
+
+.beneficios {
+    position: absolute;
+    top: 800px;
+    width: 600px;
+    padding: 20px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 25px;
+}
+
+.titulo-beneficios {
+    font-family: 'Open Sans', sans-serif;
+    color: #a0928e;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.itens {
+    vertical-align: top;
+    margin-left: 20%;
+    margin-top: 20px;
+    color: #000000;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background: url(../img/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    margin: 20px 0 0;
+}

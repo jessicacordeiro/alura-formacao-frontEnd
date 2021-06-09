@@ -34,74 +34,46 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.principal {
-    position: absolute;
-    top: 300px;
-    width: 600px;
-    left: 640px;
-    padding: 40px;
-    color: #000000;
-    font-weight: bold;
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
-.text-center {
-    font-family: 'Open Sans', sans-serif;
-    color: #a0928e;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: #000000;
-    text-transform: uppercase;
+.produtos li {
+    display: inline-block;
     text-align: center;
+    font-family: 'Spartan', sans-serif;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid #635A58;
+    border-radius: 15px;
+}
+
+.produtos li:hover {
+    border-color:#FF0000;
+}
+
+.produtos h2 {
+    font-size: 20px;
     font-weight: bolder;
-    font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 40px;
 }
 
-p {
-    text-align: justify;
-    font-family: 'Spartan', sans-serif;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-p em {
-    font-size: 20px;
-}
-
-em strong {
-    color: #000000;
-    text-shadow: 3px 3px 5px #635A58;
-}
-
-.beneficios {
-    position: absolute;
-    top: 800px;
-    width: 600px;
-    padding: 20px;
-    font-family: 'Spartan', sans-serif;
+.produtos li:hover h2 {
     font-size: 25px;
 }
 
-.titulo-beneficios {
-    font-family: 'Open Sans', sans-serif;
-    color: #a0928e;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: #000000;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 30px;
-    margin-top: 50px;
-    margin-bottom: 40px;
+.descricao {
+    font-size: 18px;
 }
 
-.itens {
-    vertical-align: top;
-    margin-left: 20%;
-    margin-top: 20px;
-    color: #000000;
+.preco {
+    font-size: 22px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 footer {
@@ -113,7 +85,6 @@ footer {
 .copyright {
     color: #FFFFFF;
     font-family: 'Spartan', sans-serif;
-    text-align: center;
     font-size: 12px;
     margin: 20px 0 0;
 }
