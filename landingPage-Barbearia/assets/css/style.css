@@ -1,3 +1,5 @@
+/* Navbar das páginas */
+
 header {
     background: #635A58;
     padding: 20px 0;
@@ -33,6 +35,8 @@ nav a:hover {
     color: #000000;
     text-decoration: underline;
 }
+
+/* Página de Produtos */
 
 .produtos {
     width: 940px;
@@ -75,6 +79,95 @@ nav a:hover {
     font-weight: bold;
     margin-top: 10px;
 }
+
+/* Página de contato */
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    font-family: 'Spartan', sans-serif;
+}
+
+form {
+    margin: 40px 0;
+}
+
+.form-group select {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+    border-bottom: 3px solid #635A58;
+    color: gray;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 0;
+    margin-top: 15px;
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+.label-float input{
+    width: 600px;
+    padding: 2px 2px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 3px solid #635A58;
+    background-color: transparent;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+  
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+  
+.label-float input:focus{
+    border-bottom: 3px solid #635A58;
+}
+  
+.label-float label{
+    color: gray;
+    pointer-events: none;
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    margin-top: 10px;
+    transition: all .3s ease-out;
+}
+  
+.label-float input:focus + label,
+.label-float input:valid + label{
+    font-size: 16px;
+    margin-top: -10px;
+    color: black;
+    font-weight: bolder;
+}
+
+button {
+    height: 40px;
+    padding: 10px 25px;
+    color: white;
+    background: #635A58;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 3px 3px 5px black;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+/* Rodapé das páginas */
 
 footer {
     text-align: center;
