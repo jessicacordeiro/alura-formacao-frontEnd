@@ -92,23 +92,7 @@ form {
     margin: 40px 0;
 }
 
-.form-group select {
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-radius: 0;
-    border-bottom: 3px solid #635A58;
-    color: gray;
-    font-family: 'Spartan', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    margin-left: 0;
-    margin-top: 15px;
-    width: 600px;
-    margin-bottom: 10px;
-}
-
-.label-float input{
+.label-float input {
     width: 600px;
     padding: 2px 2px;
     display: inline-block;
@@ -122,18 +106,17 @@ form {
     border-radius: 0;
 }
   
-.label-float{
+.label-float {
     position: relative;
     padding-top: 13px;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin: 30px 0 40px;
 }
   
-.label-float input:focus{
+.label-float input:focus {
     border-bottom: 3px solid #635A58;
 }
   
-.label-float label{
+.label-float label {
     color: gray;
     pointer-events: none;
     position: absolute;
@@ -151,20 +134,73 @@ form {
     font-weight: bolder;
 }
 
+form textarea {
+    width: 600px;
+    border: 3px solid #635A58;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Spartan', sans-serif;
+}
+
+form fieldset {
+    margin: 20px 0px 25px;
+    padding-top: 15px;
+}
+
+.form-group select {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+    border-bottom: 3px solid #635A58;
+    color: gray;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 0;
+    margin-top: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    margin: 10px 0;
+}
+
 button {
-    height: 40px;
-    padding: 10px 25px;
+    display: grid;
+    width: 45%;
+    height: 70px;
+    padding: 20px 35px;
     color: white;
     background: #635A58;
-    margin-right: 20px;
+    margin: 30px 0 20px;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 25px;
     border: none;
     box-shadow: 3px 3px 5px black;
+    transition: 1s all;
+    cursor: pointer;
 }
 
 button:hover {
-    background-color: #000000;
+    background: #000000;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 40px 0 60px;
+}
+
+thead {
+    background: #635A58;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 2px solid #000000;
+    padding: 25px 40px;
 }
 
 /* Rodapé das páginas */

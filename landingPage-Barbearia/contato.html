@@ -37,17 +37,72 @@
                     </div>
 
                     <div class= "label-float">
-                        <input type="text" name="email" id="email" placeholder="" required>
+                        <input type="email" name="email" id="email" placeholder="" required>
                         <label id="userLabel" for="email">E-mail:</label>
                     </div>
 
                     <div class= "label-float">
-                        <input type="text" name="telefone" id="telefone" placeholder="" required>
-                        <label id="userLabel" for="telefone">Telefone:</label>
+                        <input type="tel" name="telefone" id="telefone" placeholder="" required>
+                        <label id="userLabel" for="telefone">Telefone: </label>
                     </div>
+                        
+                    <label style="margin-bottom: 150px;" for="mensagem">Mensagem</label>
+                    <div style="margin-top: 20px; margin-bottom: 20px;">
+                        <textarea cols="70" rows="10" id="mensagem"></textarea>
+                    </div>
+
+                    <fieldset>
+                        <legend>Como prefere o nosso contato?</legend>
+                        <input type="radio" name="contato" value="email" id="radio-email">
+                        <label for="radio-email">E-mail</label>
+                        
+                        <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                        <label for="radio-telefone">Telefone</label>
+                        
+                        <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
+                        <label for="radio-whatsapp">WhatsApp</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Qual horário você prefere ser atendido?</legend>
+                        <select>
+                            <option value="">Manhã</option>
+                            <option value="">Tarde</option>
+                            <option value="">Noite</option>
+                        </select>
+                    </fieldset>
+
+                    <label class="checkbox">
+                        <input type="checkbox" checked>
+                        Gostaria de receber nossas novidades pelo e-mail?
+                    </label>
+
                     <button type="submit" class="btn btn-primary">Enviar Formulário</button>
                 </div>
             </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                </tbody>
+            </table>
         </main>
 
         <footer>
