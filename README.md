@@ -4,7 +4,7 @@ Criação de páginas web com a base necessária para estudar os frameworks do m
 ## 🌈 Projetos
 
 - [x] Game Pong: exercitando a lógica de programação em JS 🏓
-- [ ] Site modelo para uma Barbearia 🧔
+- [x] Site modelo para uma Barbearia 🧔
 - [ ] Game Freeway 🚗
 - [ ] Site modelo para uma BubbleTea 🥤
   
