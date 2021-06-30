@@ -34,75 +34,110 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.banner {
+	width:100%;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+    text-shadow: 3px 3px 5px #635A58;
+    font-family: 'Spartan', sans-serif;
+    font-weight: bolder;
+}
+
 .principal {
-    position: absolute;
-    top: 300px;
-    width: 600px;
-    left: 640px;
-    padding: 40px;
-    color: #000000;
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	margin: 0 0 1em;
+    font-family: 'Spartan', sans-serif;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE,  #9b8e8b, #635A58);
+    font-family: 'Spartan', sans-serif;
     font-weight: bold;
 }
 
-.text-center {
-    font-family: 'Open Sans', sans-serif;
-    color: #a0928e;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: #000000;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 40px;
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
 }
 
-p {
-    text-align: justify;
-    font-family: 'Spartan', sans-serif;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-p em {
-    font-size: 20px;
-}
-
-em strong {
-    color: #000000;
-    text-shadow: 3px 3px 5px #635A58;
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
 }
 
 .beneficios {
-    position: absolute;
-    top: 800px;
-    width: 600px;
-    padding: 20px;
+	padding: 3em 0;
+	background: #635A58;
     font-family: 'Spartan', sans-serif;
-    font-size: 25px;
 }
 
-.titulo-beneficios {
-    font-family: 'Open Sans', sans-serif;
-    color: #a0928e;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: #000000;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 30px;
-    margin-top: 50px;
-    margin-bottom: 40px;
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+    font-family: 'Spartan', sans-serif;
+}
+
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .itens {
-    vertical-align: top;
-    margin-left: 20%;
-    margin-top: 20px;
-    color: #000000;
-    font-weight: bold;
+	line-height: 1.5;
 }
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.itens:before {
+	content: "🟊";
+}
+
+.imagem-beneficios {
+	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.3;
+}
+
+.video {
+	width: 560px;
+	margin: 2em auto;
+}
+
+/* Rodapé das páginas */
 
 footer {
     text-align: center;
@@ -113,7 +148,26 @@ footer {
 .copyright {
     color: #FFFFFF;
     font-family: 'Spartan', sans-serif;
-    text-align: center;
     font-size: 12px;
     margin: 20px 0 0;
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
 }

@@ -36,6 +36,78 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* Página HOME */
+
+.principal {
+    position: absolute;
+    top: 300px;
+    width: 600px;
+    left: 640px;
+    padding: 40px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.titulo-principal {
+    font-family: 'Open Sans', sans-serif;
+    color: #a0928e;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+    margin: 1em 0 1em;
+}
+
+.principal p {
+    text-align: justify;
+    font-family: 'Spartan', sans-serif;
+    font-size: 20px;
+    margin: 1em 0 1.3em;
+}
+
+.principal em {
+    font-size: 1em;
+    font-style: italic;
+}
+
+.principal strong {
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 3px 3px 5px #635A58;
+}
+
+.beneficios {
+    position: absolute;
+    top: 800px;
+    width: 40%;
+    padding: 20px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 25px;
+}
+
+.titulo-beneficios {
+    font-family: 'Open Sans', sans-serif;
+    color: #a0928e;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.itens {
+    vertical-align: top;
+    margin-left: 20%;
+    margin-top: 20px;
+    color: #000000;
+    font-weight: bold;
+}
+
 /* Página de Produtos */
 
 .produtos {
